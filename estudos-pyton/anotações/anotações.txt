@@ -18,3 +18,4 @@ Ordem de precedencia
 Observações do print
     se colocar o \n no print ele quebra a linha
     se quiser colocar os dois prints na mesma linha basta adicionar end='' (se colocar algo dentro das aspas, será mostrado no print antes do proximo)
+    Dentro das chaves, tem a opção de colocar {:.2f}, que significa que voce quer que mostre apenas 2 casas depois da virgula
