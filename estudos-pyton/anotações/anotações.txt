@@ -1,0 +1,20 @@
+Aula 007
+Operadores aritimeticos
+    5+2 soma
+    5-2 subtração
+    5*2 multiplicação
+    5/2 divisão
+    5**2 exponenciação
+    5//2 divisão inteira (não possui virgula e retorna o resultado inteiro da divisão)
+    5%2 resto da divisão (retorna somente o resto da divisão sem dividir)
+    5**(1/2) raiz quadrada de 5
+
+Ordem de precedencia
+    primeiro será operado os (), no python não se usa chaves e colchetes para operações aritimeticas como na matematica comum
+    depois será operado as potencias **
+    depois é operado a multiplicação, divisão, divisão inteira e resto da divisão
+    e por ultimo a soma e subtração
+
+Observações do print
+    se colocar o \n no print ele quebra a linha
+    se quiser colocar os dois prints na mesma linha basta adicionar end='' (se colocar algo dentro das aspas, será mostrado no print antes do proximo)
