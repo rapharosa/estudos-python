@@ -19,3 +19,11 @@ Observações do print
     se colocar o \n no print ele quebra a linha
     se quiser colocar os dois prints na mesma linha basta adicionar end='' (se colocar algo dentro das aspas, será mostrado no print antes do proximo)
     Dentro das chaves, tem a opção de colocar {:.2f}, que significa que voce quer que mostre apenas 2 casas depois da virgula
+
+Aula 008
+Utilizando modulos
+    É possivel importar bibliotecas (import pandas), e tambem apenas uma funcionalidade da biblioteca (from pandas import algo)
+    se precisar de mais de uma funcionalidade, porem não todas fica (from pandas import isso, aquilo)
+    Para utilizar uma funcionalidade é necessario digitar o nome da biblioteca ponto o nome da funcionalidade (math.sqrt())
+    Quando se usa a importação da funcionalidade, não é necessario utilizar o nome da biblioteca ponto funcionalidade,
+    seu usa somente funcionalidade(x)
