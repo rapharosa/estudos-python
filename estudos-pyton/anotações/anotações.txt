@@ -27,3 +27,41 @@ Utilizando modulos
     Para utilizar uma funcionalidade é necessario digitar o nome da biblioteca ponto o nome da funcionalidade (math.sqrt())
     Quando se usa a importação da funcionalidade, não é necessario utilizar o nome da biblioteca ponto funcionalidade,
     seu usa somente funcionalidade(x)
+
+    Para sortear algo em uma lista usa-se o metodo choice da biblioteca random
+    Para embaralhar uma lista usa-se o metodo shuffle (random.shuffle(lista)) assim a ordem da lista foi alterada
+
+Aula 009
+Manipulando textos
+    Fatiamento
+    Uma string pode ser manipulada como uma lista, pode ser atribuida uma frase a uma variavel, e essa variavel pode ser manipulada
+    ex: frase = 'uma frase aleatoria'
+        frase[5] retorna 'r'
+        frase[:3] retorna 'uma'
+
+    Analise
+    len(frase) retorna o comprimento da frase que seria 19
+    frase.count('o') retorna quantas vezes aparece a letra o
+    frase.count('o', 0, 13) retorna quantas vezes tem a letra 'o' do inicio da frase até o 12º caractere
+    frase.find('ase') retorna onde encontrado o 'ase' na variavel, no caso retornaria na posição 6
+    frase.find('Android') retorna o indice -1, uma vez que nao foi encontrado 'Android' na variavel
+    'aleatoria' in frase retorna true, uma vez que existe 'aleatoria' na variavel frase
+
+    Transformação
+    *** em via de regra, uma string é imutavel, é possivel mudar atravez de metodos ***
+    
+    frase.replace('aleatoria', 'qualquer') esse metodo substitui onde há 'aleatoria' por 'qualquer'
+    frase.upper() deixa os caracteres em maiusculo
+    frase.lower() deixa os caracteres em minusculo
+    frase.captalize() coloca o primeiro caracter em maiusculo
+    frase.title() coloca o primeiro caracter de cada palavra em maiusculo
+    frase.strip() remove todos os espaços inuteis no inicio e no final da string
+    frase.rstrip() remove os espaços inuteis à direita da string
+    frase.lstrip() remove os espaços inuteis à esquerda da string
+
+    Divisão
+    frase.split() divide a frase utilizando os espaços como referencia (os espaços não fazem mais parte da string dividida)
+    tecnicamente é gerado uma lista de cada palavra e a variavel se torna uma lista de listas
+
+    Junção
+    '-'.join(frase) agrupa todos os itens separados e utiliza o separador '-'
