@@ -5,9 +5,9 @@
 # Quantas letras tem o primeiro nome
 
 nome = input('Digite seu nome completo: ')
-print(nome.upper())
-print(nome.lower())
+print('Seu nome maiusculo {}'.format(nome.upper()))
+print('Seu nome minusculo {}'.format(nome.lower()))
 junto = nome.split()
 resultadojunto = ''.join(junto)
-print(len(resultadojunto))
-print(len(junto[0]))
+print('Seu nome ao todo tem {} letras'.format(len(resultadojunto)))
+print('Seu primeiro nome tem {} letras'.format(len(junto[0])))
