@@ -65,3 +65,20 @@ Manipulando textos
 
     Junção
     '-'.join(frase) agrupa todos os itens separados e utiliza o separador '-'
+
+Aula 10
+    Condições
+    ifcondicao: condição se, usa-se : apos a declaração da função
+    else:
+    ex:
+
+    tempo = int(input('Qunatos anos tem seu carro? '))
+    iftempo<=3:
+        print('carro novo')
+    else:
+        print('carro velho')
+
+    outro modo de escrever o mesmo codigo, com menos linhas:
+
+    tempo = int(input('Qunatos anos tem seu carro? '))
+    print('carro novo' if tempo<=3 else 'carro velho')
